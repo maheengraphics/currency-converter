@@ -1,4 +1,4 @@
-pip install streamlit
+pip install streamlit requests
 import streamlit as st
 import requests
 
@@ -36,3 +36,4 @@ if st.button("Convert"):
         st.success(result)
     else:
         st.error("Please enter a valid amount")
+
