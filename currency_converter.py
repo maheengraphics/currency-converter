@@ -1,4 +1,5 @@
 pip install streamlit requests
+streamlit run currency_converter.py
 import streamlit as st
 import requests
 
